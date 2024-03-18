@@ -1,7 +1,7 @@
-<template><div><h1 id="record" tabindex="-1"><a class="header-anchor" href="#record"><span>record</span></a></h1>
+<template><div><p>record</p>
 <ol>
 <li><em>斜体</em></li>
-<li><strong>加粗</strong></li>
+<li><em>加粗</em></li>
 </ol>
 </div></template>
 
