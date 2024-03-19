@@ -8,7 +8,7 @@ export default ({
 
   lang: 'zh-CN',
   title: '白先生神圣不容侵犯！！',
-  description: '这是我的第一个 VuePress 站点',
+  description: '欢迎来到白先生的博客',
   head:[['link',{rel:'icon',herf:'/1.jpg'}]],
 
   theme: defaultTheme({
