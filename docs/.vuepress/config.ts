@@ -2,25 +2,28 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
-export default ({
+export default defineUserConfig({
   bundler: viteBundler(),
- // theme: defaultTheme(),
+  //theme: defaultTheme(),
 
   lang: 'zh-CN',
-  title: '白先生神圣不容侵犯！！',
-  description: '欢迎来到白先生的博客',
+  title: '白先生',
+  description: '对于博客的定义暂时不清楚，等待之后补充，目前最为一个文档记录的平台',
   head:[['link',{rel:'icon',herf:'/1.jpg'}]],
+  ///date: '2024.3.25',
 
   theme: defaultTheme({
+
+
     navbar:[
       {
-      text:'首页',
-      link:'/',
+      text:'首页',link:'/',
       },
 
       {
-        text: 'css',
-        children: ['/pages/css/css01.md', '/pages/css/css02.md'],
+        text: '学习笔记',
+       //link:'/page/学习笔记/git使用方法',
+        children:['/page/学习笔记/git使用方法'],
       },
 
 
@@ -30,49 +33,44 @@ export default ({
         children: [
           {
             text: 'js基础',
-            children: ['/pages/js/js01.md', '/pages/js/js02.md'],
+           //link:'/page/js/js01',
+            children: ['js001.md', '/page/js/js02'],
           },
           {
-            text: 'js高级',
-            children: ['/pages/js/js03.md'],
+            text: 'jstest',
+            link:'/page/js/jitest/ssd',
+            //children: ['/page/js/jitest/ssd'],
           },
         ],
       }
-
-
-      
-
     ],
 
-    sidebar: {
+   sidebar: [
+
+    /*
       '/pages/js/': [
         {
           text: 'js1',
           collapsible: true, // 可折叠
-          children: ['/pages/js/js01.md', '/pages/js/js02.md'],
+          children: ['/pages/js/js01', '/pages/js/js02'],
         },
         {
           text: 'js2',
           collapsible: true,
-          children: ['/pages/js/js03.md'],
+          children: ['/pages/js/js03'],
         },
       ],
-      '/pages/css/': [
-        {
-          text: 'css',
-          collapsible: true,
-          children: ['/pages/css/css01.md', '/pages/css/css02.md'],
-        },
-      ],
-      '/pages/html/': [
-        {
-          text: 'html',
-          collapsible: true,
-          children: ['/pages/html/html01.md', '/pages/html/html02.md'],
-        },
-      ],
-    },
+      */
+     {
+       text:'学习笔记',
 
+
+     }
+
+      
+      ] ,  
 
   }),
+
+
 })
