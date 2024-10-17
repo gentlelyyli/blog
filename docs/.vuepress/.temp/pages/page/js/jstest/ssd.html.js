@@ -1,5 +1,5 @@
-import comp from "F:/CODE__CODE/gentlelyyli.github.io/gentlelyyli.github.io/docs/.vuepress/.temp/pages/page/js/jstest/ssd.html.vue"
-const data = JSON.parse("{\"path\":\"/page/js/jstest/ssd.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"page/js/jstest/ssd.md\"}")
+import comp from "E:/CODE__CODE/blog/docs/.vuepress/.temp/pages/page/js/jstest/ssd.html.vue"
+const data = JSON.parse("{\"path\":\"/page/js/jstest/ssd.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1711356074000,\"contributors\":[{\"name\":\"Skillful Li\",\"email\":\"lwangluoab@163.com\",\"commits\":1}]},\"filePathRelative\":\"page/js/jstest/ssd.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
